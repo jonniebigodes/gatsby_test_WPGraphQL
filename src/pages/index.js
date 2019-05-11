@@ -3,8 +3,15 @@ import PropTypes from "prop-types"
 import { graphql } from "gatsby"
 
 const Index = ({ data }) => (
+  // <>
+  //   {data.wpcms.posts.edges.map(v => (
+  //     <div>
+  //       <p>{`Title of id "${v.node.id}" is "${v.node.title}"`}</p>
+  //     </div>
+  //   ))}
+  // </>
   <>
-    {data.wpcms.posts.edges.map(v => (
+    {data.wpgraphql.posts.edges.map(v => (
       <div>
         <p>{`Title of id "${v.node.id}" is "${v.node.title}"`}</p>
       </div>
