@@ -1,0 +1,2 @@
+- gatsby-source-graphql should be in dependencies not dev dependencies
+- lodash was not included
